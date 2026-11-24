@@ -1,6 +1,6 @@
 # Caixas Luci Luci no Illustrator
 
-Use [MORO_6_CAIXA_REVISAO.ai](modelos/MORO_6_CAIXA_REVISAO.ai) como matriz estrutural. O rótulo recebido fornece a identidade e os dados do novo produto. Entregue um novo AI com a caixa aberta na primeira prancha e a máscara de verniz correspondente na segunda. Consulte as provas de [arte](referencias/caixas/arte.png) e [verniz](referencias/caixas/verniz.png) para identificar os elementos da matriz.
+Use [Base - Caixa.ai](<modelos/Base - Caixa.ai>) como matriz estrutural. O rótulo recebido fornece a identidade e os dados do novo produto. Entregue um novo AI com a caixa aberta na primeira prancha e a máscara de verniz correspondente na segunda. Consulte as provas de [arte](referencias/caixas/arte.png) e [verniz](referencias/caixas/verniz.png) para identificar os elementos da matriz.
 
 ## Preparar a adaptação
 

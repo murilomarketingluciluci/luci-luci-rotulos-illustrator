@@ -1,6 +1,6 @@
 # Embalagens Nutra Luci Luci
 
-A skill `embalagens-nutra-luciluci` reúne a matriz de rótulo Ômega 3, a matriz de caixa Moro 6 e suas referências visuais para Adobe Illustrator.
+A skill `embalagens-nutra-luciluci` reúne as matrizes editáveis [Base - Rótulo.ai](<modelos/Base - Rótulo.ai>) e [Base - Caixa.ai](<modelos/Base - Caixa.ai>) e suas referências visuais para Adobe Illustrator.
 
 ## Instalação
 
@@ -21,7 +21,7 @@ O endereço do repositório mantém o nome original. No seletor de skills e nos 
 ## Como usar
 
 1. Anexe os dizeres e os ativos do produto e peça: “Use a skill embalagens-nutra-luciluci para fazer o rótulo de [produto].”
-2. Revise a prova e informe qual versão o cliente aprovou. O agente então pergunta se pode fazer a caixa.
-3. Autorize a montagem. A caixa usa aquela versão do rótulo, com texto editável, faca e máscara de verniz em prancheta própria.
+2. Revise a prova e informe qual versão do rótulo o cliente aprovou. O agente exporta o PDF/X-1a:2001 final dessa versão e pergunta se pode fazer a caixa.
+3. Autorize a montagem. A caixa usa aquela versão do rótulo, com texto editável, faca e máscara de verniz em prancheta própria. Quando o cliente aprovar a caixa, o agente exporta o PDF/X-1a final com arte e verniz.
 
 O [fluxo completo](SKILL.md) reúne as instruções do [rótulo](rotulos.md) e da [caixa](caixas.md). Para projetos que já tenham um rótulo aprovado, entregue o arquivo e identifique a versão aprovada pelo cliente.
