@@ -38,7 +38,7 @@ Leia todas as páginas dos dizeres do SKU e compare cada campo com a face princi
 
 | Campo | Regra para montar a prova |
 | --- | --- |
-| **DISTRIBUÍDO POR** | Campo obrigatório do padrão Luci Luci, inclusive quando ausente dos dizeres. Coloque-o na faixa branca inferior direita, abaixo do fabricante. Copie a identificação completa da distribuidora do cadastro vigente aprovado pela marca. A matriz Ômega 3 traz **LUCI LUCI**, **CNPJ 13.066.430/0001-88**, **Av. Jesuíno Anastácio Pereira, nº 665, Santa Regina, Camboriú - SC, CEP 88345-572**. Use esse bloco como referência enquanto corresponder ao cadastro aprovado. |
+| **DISTRIBUÍDO POR** | Campo obrigatório do padrão Luci Luci, inclusive quando ausente dos dizeres. Coloque-o na faixa branca inferior direita, abaixo do fabricante. Copie a identificação completa da distribuidora do cadastro vigente aprovado pela marca. A matriz Ômega 3 traz LUCI LUCI, CNPJ 13.066.430/0001-88, Av. Jesuíno Anastácio Pereira, nº 665, Santa Regina, Camboriú - SC, CEP 88345-572. Use esse bloco como referência enquanto corresponder ao cadastro aprovado. |
 | **ATENDIMENTO AO CONSUMIDOR** | Inclua sempre **sac@luciluci.com.br**, mesmo que os dizeres só forneçam o contato do fabricante. Componha o título e o e-mail como parágrafos editáveis imediatamente após a última advertência e antes da área do QR. Use o estilo do bloco direito na faixa colorida e preserve o espaço livre do QR. A face principal do AI incluído ainda tem o SAC sob os ingredientes. Ao criar uma cópia, transfira-o para o novo local e elimine a ocorrência antiga. Deve haver um único SAC por vista. |
 | **Responsável técnico e telefone do fabricante** | Na prova padrão da linha, omita o título de responsável técnico, o nome, o registro profissional e o telefone de contato do fabricante. Mantenha esses dados na ficha de origem. Preserve a identificação do fabricante na arte. Se houver exigência específica do produto para imprimir algum desses campos, indique a exceção para revisão antes do fechamento. |
 | **FABRICADO POR, origem e notificação** | Use razão social, CNPJ, endereço, origem e número de notificação correspondentes ao SKU. “Indústria brasileira” pode acompanhar a identificação do fabricante na faixa branca. No Ômega 3, os dizeres trazem “L. F. DO NASCIMENTO” e o modelo acrescenta “LTDA.”. Confirme a razão social no cadastro aprovado antes de aplicar esse sufixo. |
@@ -46,6 +46,10 @@ Leia todas as páginas dos dizeres do SKU e compare cada campo com a face princi
 | **Elementos acrescentados pela marca** | A frente do Ômega 3 acrescenta a assinatura “My Routine”, o nome comercial em destaque e os ícones, e a lateral acrescenta peso líquido e via de uso. O documento pede código de barras e reserva de datas e lote. A marca acrescenta o espaço de QR com legenda. Use os ativos e dados do SKU; no Ômega 3, 60 × 1.400 mg corresponde a 84 g, mas o peso e a via devem ser confirmados para cada novo produto. |
 
 Na entrega, distinga as omissões previstas pela marca das divergências de conteúdo que precisam de confirmação. Não deduza uma regra para a linha inteira a partir de um campo que desapareceu na arte de um SKU.
+
+**Tipografia do bloco de fabricação e distribuição.** Escreva os títulos exatamente como **FABRICADO POR:** e **DISTRIBUÍDO POR:**, em caixa alta e Gotham Bold, incluindo os dois-pontos. Na linha seguinte a cada título, volte para Gotham Book. Use esse peso sem negrito no nome da empresa, CNPJ, endereço, origem e em toda a linha de notificação, inclusive o número. Preserve o corpo, a entrelinha e a cor do produto usados no bloco da matriz.
+
+**Redação da notificação.** Quando a ficha confirmar a notificação do produto, escreva “Produto notificado pela ANVISA nº [número do SKU]” em Gotham Book. Aplique “pela ANVISA” também quando os dizeres ou a matriz trouxerem “na ANVISA”. Transcreva o número completo com seus separadores. Se faltar o número, sinalize o campo na prova; não reutilize o do modelo. A fórmula se aplica a produtos notificados e não converte outra situação regulatória em notificação.
 
 ## Preencher os objetos existentes
 
@@ -89,6 +93,7 @@ No JSX, use a referência de documento retornada por `app.open(File(caminhoDaCop
 
 ## Conferir antes de entregar
 
+- Na face principal e na miniatura, confira os dois títulos em Gotham Bold e o primeiro caractere do nome de cada empresa em Gotham Book. Leia toda a linha “Produto notificado pela ANVISA” e confira o número com a ficha, inclusive em objetos copiados da matriz.
 - Confira em cada vista: identificação completa do fabricante e da distribuidora, um único SAC abaixo das advertências, e ausência dos dados pessoais do responsável técnico e do telefone do fabricante conforme o padrão acordado. Confira separadamente as ocorrências da miniatura, que pode reter campos antigos. Compare ingredientes, códigos INS, notificação e faixa etária com os dizeres do SKU.
 - Leia a legenda ao lado do QR na prova e confira a frase completa, incluindo “informações.”. Verifique também a legenda na miniatura de saída do rolo, quando houver, com a mesma posição relativa ao código.
 - Na arte principal, selecione “My Routine” e confira a variante Light, o traçado uniforme de 0,01 cm nas letras, o corpo e o tracking. Confira a reprodução proporcional na miniatura de saída do rolo, quando houver.
