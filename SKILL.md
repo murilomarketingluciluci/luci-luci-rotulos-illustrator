@@ -34,6 +34,8 @@ Preserve a posição das três colunas, a altura das faixas, a espessura das lis
 
 ## Preencher os objetos existentes
 
+**Legenda do QR Code.** No bloco direito da faixa colorida, coloque à direita do QR a frase exata **“Escaneie o QR Code para mais informações.”** Use uma única caixa de texto de área editável, com letras brancas e alinhamento à esquerda. Na referência, as quatro linhas são “Escaneie o” / “QR Code” / “para mais” / “informações.”. Preserve o estilo da legenda e o espaço livre ao redor do código. Se a matriz omitir a legenda, recrie o bloco seguindo a [referência Moro 6](referencias/moro-6.png). Mesmo quando o QR estiver pendente, mantenha a legenda ao lado do espaço reservado na prova.
+
 **Peso líquido e via de uso na lateral.** Na matriz incluída, localize o texto branco vertical entre a tabela e a frente do produto, na faixa colorida. A leitura vai de baixo para cima. Para produtos de uso oral, siga o formato “Peso Líquido: 84 G - uso oral”, substituindo 84 G pelo peso líquido aprovado para o SKU. O peso é o do conteúdo da embalagem. Preserve âncora, giro, tipografia, cor e afastamentos do objeto. Se a base escolhida omitir o campo e a variante precisar dele, copie o objeto da matriz incluída para a posição equivalente em relação à tabela e à faixa. Atualize também a saída do rolo, respeitando a rotação da miniatura. Confira peso, unidade e via na ficha antes de finalizar.
 
 **Assinatura “My Routine”.** Sempre que a assinatura aparecer, escreva exatamente “My Routine” em **Gotham Light com traçado uniforme de 0,01 cm (0,1 mm)** aplicado às próprias letras. Mantenha o texto editável, a opacidade em 100% e as cores de preenchimento e traçado da assinatura aprovada. Em scripts que recebem a espessura em pontos, 0,1 mm corresponde a aproximadamente 0,2835 pt.
@@ -72,6 +74,7 @@ No JSX, use a referência de documento retornada por `app.open(File(caminhoDaCop
 
 ## Conferir antes de entregar
 
+- Leia a legenda ao lado do QR na prova e confira a frase completa, incluindo “informações.”. Verifique também a legenda na miniatura de saída do rolo, quando houver, com a mesma posição relativa ao código.
 - Na arte principal, selecione “My Routine” e confira a variante Light, o traçado uniforme de 0,01 cm nas letras, o corpo e o tracking. Confira a reprodução proporcional na miniatura de saída do rolo, quando houver.
 - Confira a frase etária completa nas recomendações de uso e na miniatura, quando presente. Verifique o preenchimento de cada trecho de texto abaixo da listra divisória contra a amostra da denominação central. Corrija qualquer trecho preto ou de outra cor antes de gerar a prova.
 - Compare uma prova renderizada da cópia com a matriz na mesma escala, de preferência por sobreposição. As bordas da faca, faixas, listras, âncoras e elementos fixos devem coincidir. Confira o corpo pequeno também no tamanho físico final.
