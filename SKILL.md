@@ -24,13 +24,28 @@ Use o modelo indicado por Murilo. Se ele indicar uma pasta com vários modelos, 
 
 | Bloco | Faixa superior colorida | Faixa inferior branca |
 | --- | --- | --- |
-| Esquerdo | Tabela nutricional com sua própria grade, cabeçalho, unidades e notas. Peso líquido vertical nas variantes que o usam. | Ingredientes, composição, alergênicos, destaques e atendimento ao consumidor, conforme a ficha. |
+| Esquerdo | Tabela nutricional com sua própria grade, cabeçalho, unidades e notas. Peso líquido vertical nas variantes que o usam. | Ingredientes, composição, alergênicos, declaração de glúten e destaques do SKU. |
 | Central, frente do produto | Marca na posição original, linha “My Routine” quando presente, nome em destaque e descrição curta. | Denominação do produto, ícones aplicáveis e quantidade de cápsulas com o peso correspondente. |
-| Direito | Recomendações, conservação, advertências, QR e área do código de barras, lote e datas. | Dados de fabricação, distribuição e demais identificações do produto. |
+| Direito | Recomendações, conservação, advertências, SAC Luci Luci imediatamente abaixo das advertências, depois QR, código de barras, lote e datas. | “FABRICADO POR”, identificação de origem e notificação aplicáveis ao SKU, seguidos de “DISTRIBUÍDO POR”. |
 
 Preserve a posição das três colunas, a altura das faixas, a espessura das listras, as margens, os respiros entre blocos e os alinhamentos do AI escolhido. Mantenha a escala da marca, os contornos, a ordem das camadas, faca, sangria e elementos técnicos. Ao trocar a cor, aplique a amostra indicada só aos elementos que usam a cor do produto. Conserve o tipo de tinta (especial ou de processo), as retículas e as configurações de impressão da matriz. Proteja o preto da tabela e dos códigos e os objetos brancos.
 
 **Cor da faixa branca inferior.** Use em todos os textos dos três blocos a mesma amostra de cor do produto, com a mesma porcentagem de tinta usada na denominação central. Aplique a cor a cada trecho, inclusive títulos, negritos, números, contatos e dados de fabricação, mesmo quando vierem em preto da matriz ou do texto colado. Preserve os pesos e estilos tipográficos. Nos ícones, use a mesma amostra nos traços que levam a cor do produto e preserve os aros neutros da matriz.
+
+## Conciliar os dizeres do fabricante com o padrão Luci Luci
+
+Leia todas as páginas dos dizeres do SKU e compare cada campo com a face principal do modelo. A numeração dos painéis na ficha orienta a leitura. Para montar a arte, use o mapa de blocos acima. Aplique as regras também quando o PDF vier sem papel timbrado da marca ou trouxer apenas a indicação genérica “Logo”.
+
+| Campo | Regra para montar a prova |
+| --- | --- |
+| **DISTRIBUÍDO POR** | Campo obrigatório do padrão Luci Luci, inclusive quando ausente dos dizeres. Coloque-o na faixa branca inferior direita, abaixo do fabricante. Copie a identificação completa da distribuidora do cadastro vigente aprovado pela marca. A matriz Ômega 3 traz **LUCI LUCI**, **CNPJ 13.066.430/0001-88**, **Av. Jesuíno Anastácio Pereira, nº 665, Santa Regina, Camboriú - SC, CEP 88345-572**. Use esse bloco como referência enquanto corresponder ao cadastro aprovado. |
+| **ATENDIMENTO AO CONSUMIDOR** | Inclua sempre **sac@luciluci.com.br**, mesmo que os dizeres só forneçam o contato do fabricante. Componha o título e o e-mail como parágrafos editáveis imediatamente após a última advertência e antes da área do QR. Use o estilo do bloco direito na faixa colorida e preserve o espaço livre do QR. A face principal do AI incluído ainda tem o SAC sob os ingredientes. Ao criar uma cópia, transfira-o para o novo local e elimine a ocorrência antiga. Deve haver um único SAC por vista. |
+| **Responsável técnico e telefone do fabricante** | Na prova padrão da linha, omita o título de responsável técnico, o nome, o registro profissional e o telefone de contato do fabricante. Mantenha esses dados na ficha de origem. Preserve a identificação do fabricante na arte. Se houver exigência específica do produto para imprimir algum desses campos, indique a exceção para revisão antes do fechamento. |
+| **FABRICADO POR, origem e notificação** | Use razão social, CNPJ, endereço, origem e número de notificação correspondentes ao SKU. “Indústria brasileira” pode acompanhar a identificação do fabricante na faixa branca. No Ômega 3, os dizeres trazem “L. F. DO NASCIMENTO” e o modelo acrescenta “LTDA.”. Confirme a razão social no cadastro aprovado antes de aplicar esse sufixo. |
+| **Informações técnicas** | Transfira formulação e composição da cápsula, alergênicos, glúten, porção, tabela e notas, quantidade, massa, recomendações, conservação, público e advertências conforme os dizeres aprovados. Preserve funções, ingredientes, identificadores e unidades. No Ômega 3, os dizeres identificam gelatina (INS 428), glicerol (INS 422) e sorbitol (INS 420). Os três códigos sumiram da face principal da matriz. Ao produzir a partir dessa ficha, mantenha os códigos salvo revisão técnica aprovada. |
+| **Elementos acrescentados pela marca** | A frente do Ômega 3 acrescenta a assinatura “My Routine”, o nome comercial em destaque e os ícones, e a lateral acrescenta peso líquido e via de uso. O documento pede código de barras e reserva de datas e lote. A marca acrescenta o espaço de QR com legenda. Use os ativos e dados do SKU; no Ômega 3, 60 × 1.400 mg corresponde a 84 g, mas o peso e a via devem ser confirmados para cada novo produto. |
+
+Na entrega, distinga as omissões previstas pela marca das divergências de conteúdo que precisam de confirmação. Não deduza uma regra para a linha inteira a partir de um campo que desapareceu na arte de um SKU.
 
 ## Preencher os objetos existentes
 
@@ -44,7 +59,7 @@ Use corpo de **3,387 mm (aprox. 9,6 pt)**, entrelinha automática de 120% (4,064
 
 Edite cada campo no próprio objeto. Em uma frase com estilos mistos, substitua por trecho e preserve a formatação de cada função. Por exemplo, em “Contém **60** cápsulas de 500 mg”, o número em destaque e o peso pertencem a trechos diferentes. Use a caixa e o alinhamento existentes mesmo quando o novo texto for curto.
 
-**Indicação etária.** No bloco “Recomendações de uso”, para a indicação de 19 anos identificada na matriz como “≥ 19 anos”, use exatamente a frase da marca: **Indicado para o grupo populacional maior de 19 anos.** Substitua a frase inteira, com o ponto final. Se a ficha aprovada indicar outro público ou exigir expressamente a inclusão de quem tem exatamente 19 anos, sinalize a divergência para revisão antes de aplicar essa redação.
+**Indicação etária.** A redação da marca para público acima de 19 anos é **Indicado para o grupo populacional maior de 19 anos.** Confira se a faixa aprovada para o SKU corresponde a essa redação. No PDF do Ômega 3, “≥ 19 anos” inclui quem tem 19 anos completos. Na arte, “maior de 19 anos” exclui essa idade. Identifique a divergência e preserve o alcance da ficha ao escrever por extenso (“de 19 anos ou mais”) até a definição técnica da versão de impressão.
 
 Confira tabela nutricional, ingredientes, advertências, alegações, ícones, porção, quantidade, massa, dados empresariais, QR e código de barras com a ficha do SKU. Se a estrutura da tabela mudar, prefira uma tabela aprovada compatível da mesma família. Preserve proporção e áreas livres dos códigos. Mantenha campos variáveis de lote e datas conforme a matriz. Quando houver uma miniatura de **saída do rolo**, atualize também a arte nela, inclusive se for uma cópia independente. Preserve sua escala, rotação e sentido de saída.
 
@@ -74,6 +89,7 @@ No JSX, use a referência de documento retornada por `app.open(File(caminhoDaCop
 
 ## Conferir antes de entregar
 
+- Confira em cada vista: identificação completa do fabricante e da distribuidora, um único SAC abaixo das advertências, e ausência dos dados pessoais do responsável técnico e do telefone do fabricante conforme o padrão acordado. Confira separadamente as ocorrências da miniatura, que pode reter campos antigos. Compare ingredientes, códigos INS, notificação e faixa etária com os dizeres do SKU.
 - Leia a legenda ao lado do QR na prova e confira a frase completa, incluindo “informações.”. Verifique também a legenda na miniatura de saída do rolo, quando houver, com a mesma posição relativa ao código.
 - Na arte principal, selecione “My Routine” e confira a variante Light, o traçado uniforme de 0,01 cm nas letras, o corpo e o tracking. Confira a reprodução proporcional na miniatura de saída do rolo, quando houver.
 - Confira a frase etária completa nas recomendações de uso e na miniatura, quando presente. Verifique o preenchimento de cada trecho de texto abaixo da listra divisória contra a amostra da denominação central. Corrija qualquer trecho preto ou de outra cor antes de gerar a prova.
