@@ -9,7 +9,7 @@ Entregue um novo `.ai` editável que possa ser colocado lado a lado com os demai
 
 ## Escolher e ler a base
 
-**Biblioteca instalada.** Quando o pedido não indicar outro modelo, duplique [OMEGA 3 - Caixas de texto.ai](<modelos/OMEGA 3 - Caixas de texto.ai>) da pasta desta skill. Localize os recursos em relação a este `SKILL.md`, inclusive em outro computador. A matriz inclui a face e uma prévia da saída do rolo com objetos independentes. A prévia contém redação etária antiga e há campos QR e EAN pendentes. Na cópia de trabalho, aplique as regras abaixo e confira as duas vistas.
+**Biblioteca instalada.** Quando o pedido não indicar outro modelo, duplique [OMEGA 3 - Caixas de texto.ai](<modelos/OMEGA 3 - Caixas de texto.ai>) da pasta desta skill. Localize os recursos em relação a este `SKILL.md`, inclusive em outro computador. A face principal laranja traz “Ômega 3”, o peso líquido lateral e a legenda branca ao lado do espaço do QR. O QR e o EAN estão pendentes. A saída do rolo é uma cópia independente de uma versão anterior, com título e indicação etária antigos e sem a legenda do QR. Na cópia de trabalho, atualize a miniatura a partir da face principal finalizada, preservando a escala e a rotação.
 
 Consulte as referências visuais conforme o campo: [Moro 6](referencias/moro-6.png), [Ômega 3](referencias/omega-3.png), [Coenzima Q10 + Colágeno](referencias/coenzima-q10-colageno.png), [painel de My Routine](referencias/my-routine.png) e [detalhe lateral](referencias/peso-liquido.png).
 
