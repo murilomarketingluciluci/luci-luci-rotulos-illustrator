@@ -1,33 +1,27 @@
-# Biblioteca de rótulos Luci Luci
+# Embalagens Nutra Luci Luci
 
-Esta biblioteca reúne a skill de produção, o modelo editável de Ômega 3 e cinco referências visuais. Cada designer recebe uma cópia local e pode criar rótulos no Illustrator sem baixar a base a cada trabalho.
+A skill `embalagens-nutra-luciluci` reúne a matriz de rótulo Ômega 3, a matriz de caixa Moro 6 e suas referências visuais para Adobe Illustrator.
 
-## Instalar pelo PowerShell
+## Instalação
 
-Com Node.js 22.20 ou superior e Git instalados, abra o PowerShell na pasta do projeto e execute:
+No PowerShell, com Git e Node.js 22.20 ou superior:
 
 ```powershell
 npx skills add murilomarketingluciluci/luci-luci-rotulos-illustrator
 ```
 
-O pacote inclui a skill, a matriz do Illustrator e as imagens de referência. Para instalar diretamente no Codex e usar em todos os projetos:
+Para usar no Codex em todos os projetos:
 
 ```powershell
 npx skills add murilomarketingluciluci/luci-luci-rotulos-illustrator -g -a codex -y
 ```
 
-Abra um novo chat e peça: “Use a skill luci-luci-rotulos-illustrator. Crie uma cópia do modelo da biblioteca para este produto e aplique a ficha anexa.” A edição no Illustrator requer uma ponte de automação local e as fontes usadas pela matriz.
+O endereço do repositório mantém o nome original. No seletor de skills e nos pedidos ao agente, use **embalagens-nutra-luciluci**. Quem instalou a versão antiga pelo CLI pode instalar a nova pelo comando acima e remover a antiga no mesmo escopo com `npx skills remove luci-luci-rotulos-illustrator` (acrescente `-g` para uma instalação global). Para atualizar a nova instalação, use `npx skills update embalagens-nutra-luciluci`. A edição do AI requer acesso local ao Illustrator e às fontes da matriz.
 
-Para atualizar uma instalação feita pelo CLI:
+## Como usar
 
-```powershell
-npx skills update luci-luci-rotulos-illustrator
-```
+1. Anexe os dizeres e os ativos do produto e peça: “Use a skill embalagens-nutra-luciluci para fazer o rótulo de [produto].”
+2. Revise a prova e informe qual versão o cliente aprovou. O agente então pergunta se pode fazer a caixa.
+3. Autorize a montagem. A caixa usa aquela versão do rótulo, com texto editável, faca e máscara de verniz em prancheta própria.
 
-Se você já instalou por clonagem do Git, pode continuar atualizando com `git pull --ff-only` dentro da pasta clonada.
-
-## Modelos e referências
-
-O modelo em `modelos/OMEGA 3 - Caixas de texto.ai` é o arquivo de trabalho indicado por Murilo. Crie os rótulos fora da pasta da biblioteca para manter a matriz pronta para o próximo trabalho. O arquivo traz o texto lateral de peso líquido e via de uso. Confira QR, EAN e saída do rolo na cópia de cada produto, conforme o [procedimento da skill](SKILL.md).
-
-Para ampliar a biblioteca, acrescente o arquivo editável aprovado para distribuição pública em `modelos/`, preserve eventuais vínculos e registre em `SKILL.md` quando escolher esse modelo. Inclua exemplos visuais em `referencias/`. Depois de publicar a alteração, a equipe pode atualizar a instalação.
+O [fluxo completo](SKILL.md) reúne as instruções do [rótulo](rotulos.md) e da [caixa](caixas.md). Para projetos que já tenham um rótulo aprovado, entregue o arquivo e identifique a versão aprovada pelo cliente.
